@@ -15,7 +15,8 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
   ```
 
 ## Getting Started
-1. Installation
+### 1. Installation
+
    From the command line run the following commands to install this plugin.
    ```
    cd /etc/myDevices/plugins
@@ -24,7 +25,8 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
    sudo pip3 install .
    ```
 
-2. Setting the sensor type and pin
+### 2. Setting the sensor type and pin
+
    Specify the sensor type and pin you are using by modifying `init_args` under `DHT Temperature` in the `cayenne-dht.plugin` file.
    For a DHT11 use `11` for the sensor argument, for a DHT22 use `22` and for a AM2302 use `2302`. Set the pin argument to the GPIO
    pin number your sensor is connected to. For example, a DHT11 on pin 17 would use the following:
@@ -32,7 +34,8 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
    init_args={"sensor": 11, "pin": 17}
    ```
 
-3. Restarting the agent
+### 3. Restarting the agent
+
    Restart the agent so it can load the plugin.
    ```
    sudo service myDevices restart
