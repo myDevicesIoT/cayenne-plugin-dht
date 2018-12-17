@@ -40,3 +40,6 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
    ```
    sudo service myDevices restart
    ```
+   Temporary widgets for the plugin should now show up in the [Cayenne Dashboard](https://cayenne.mydevices.com). You can make them permanent by clicking the plus sign.
+
+   NOTE: If the temporary widgets do not show up try refreshing the [Cayenne Dashboard](https://cayenne.mydevices.com) or restarting the agent again using `sudo service myDevices restart`.
