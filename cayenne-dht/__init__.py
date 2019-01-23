@@ -30,8 +30,8 @@ class CayenneDHT():
             # Only take a new reading if a couple seconds have passed so if get_temperature and get_humidity
             # are called in succession they don't need to make two readings.
             self.humidity, self.temperature = Adafruit_DHT.read(self.sensor, self.pin)
-        if self.humidity and self.temperature:
-            self.last_reading = time.time()
+            if self.humidity and self.temperature:
+                self.last_reading = time.time()
 
     def get_temperature(self):
         """Gets the temperature as a tuple with type and unit."""
