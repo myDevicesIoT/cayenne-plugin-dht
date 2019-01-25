@@ -13,7 +13,7 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: System :: Hardware',
                'Topic :: System :: Monitoring']
 
-setup(name             = 'cayenne-dht',
+setup(name             = 'cayenne_dht',
       version          = '0.1.0',
       author           = 'myDevices',
       author_email     = 'N/A',
@@ -21,5 +21,5 @@ setup(name             = 'cayenne-dht',
       keywords         = 'myDevices IoT Cayenne DHT11 DHT22 AM2302 plugin',
       url              = 'https://www.mydevices.com/',
       classifiers      = classifiers,
-      packages         = ['cayenne-dht'],
+      packages         = ['cayenne_dht'],
       install_requires = ['Adafruit_DHT'])

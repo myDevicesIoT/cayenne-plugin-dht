@@ -1,7 +1,7 @@
 [DHT Temperature]
 enabled=true
 channel=0
-module=cayenne-dht
+module=cayenne_dht
 class=CayenneDHT
 init_args={"sensor": 11, "pin": 17}
 read=get_temperature

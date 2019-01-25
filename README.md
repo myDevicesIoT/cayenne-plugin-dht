@@ -27,7 +27,7 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
 
 ### 2. Setting the sensor type and pin
 
-   Specify the sensor type and pin you are using by modifying `init_args` under `DHT Temperature` in the `cayenne-dht.plugin` file.
+   Specify the sensor type and pin you are using by modifying `init_args` under `DHT Temperature` in the `cayenne_dht.plugin` file.
    For a DHT11 use `11` for the sensor argument, for a DHT22 use `22` and for a AM2302 use `2302`. Set the pin argument to the GPIO
    pin number your sensor is connected to. For example, a DHT11 on pin 17 would use the following:
    ```
