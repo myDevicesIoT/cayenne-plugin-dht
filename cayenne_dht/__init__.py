@@ -15,7 +15,7 @@ class CayenneDHT():
         """Initializes DHT device.
 
         Arguments:
-        sensor: The sensor type, can be 11, 22 or 2302
+        sensor: The sensor type, can be 11 or 22
         pin: The pin the DHT sensor is attached to
         """
         self.sensor = sensor
